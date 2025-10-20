@@ -72,5 +72,5 @@ Mobile Dark Mode:
 
 ## Deployment
 
-- Deployed using **Vercel / Netlify / GitHub Pages** (replace with your URL):  
-`https://your-app-link.com`
+- Deployed  GitHub Pages:( https://faith816-del.github.io/week3-react-tailwind/)
+`https://faith816-del.github.io/week3-react-tailwind/
