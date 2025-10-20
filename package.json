@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://faith816-del.github.io/react-tailwind-assignment",
+  "homepage": "https://github.com/faith816-del/week3-react-tailwind",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
