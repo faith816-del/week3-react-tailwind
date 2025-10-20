@@ -1,70 +1,76 @@
-# React.js and Tailwind CSS Assignment
+# React + Tailwind CSS Task & Todos App
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+## Overview
+This project is a responsive React application built using **Vite** and **Tailwind CSS**. It demonstrates:
 
-## Assignment Overview
+- Reusable UI components (Button, Card, Navbar, Footer, Layout)
+- State management using **React hooks** (`useState`, `useEffect`)
+- Persistent tasks using **localStorage**
+- API integration with **JSONPlaceholder**
+- Dark/Light theme toggle
+- Responsive design for mobile, tablet, and desktop
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## Features
 
-## Getting Started
+1. **Task Manager**
+   - Add new tasks
+   - Mark tasks as completed
+   - Delete tasks
+   - Filter tasks (All, Active, Completed)
+   - Tasks persist across sessions using localStorage
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+2. **Todos from API**
+   - Fetches first 10 todos from JSONPlaceholder
+   - Displays completed/pending status
+   - Handles loading and error states
 
-## Files Included
+3. **Responsive Design & Styling**
+   - Tailwind CSS utilities for spacing, typography, colors
+   - Hover animations for buttons and cards
+   - Mobile-first responsive layout
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+4. **Dark/Light Theme**
+   - Toggle between dark and light mode
+   - Preference saved in localStorage
+---
 
 ## Project Structure
-
-```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── api/ # API helper functions
+├── components/ # Reusable UI components
+├── context/ # Theme context provider
+├── hooks/ # Custom hooks (e.g., useLocalStorage)
+├── pages/ # Home and Task pages
+├── utils/ # Utility functions (optional)
+└── App.jsx # Main application component
+---
 
-## Submission
+## Setup Instructions
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+1. Clone the repository:  
+```bash
+git clone <https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-faith816-del.git>
+cd <repo-folder>
+npm install
+npm run dev
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+## Screenshots
 
-## Resources
+Desktop Light Mode:  
+![Desktop Light](screenshots/home-light.png)
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+Desktop Dark Mode:  
+![Desktop Dark](screenshots/home-dark.png)
+
+Mobile Light Mode:  
+![Mobile Light](screenshots/home-light-mobile.png)
+
+Mobile Dark Mode:  
+![Mobile Dark](screenshots/home-dark-mobile.png)
+---
+
+## Deployment
+
+- Deployed using **Vercel / Netlify / GitHub Pages** (replace with your URL):  
+`https://your-app-link.com`
