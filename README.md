@@ -50,27 +50,28 @@ src/
 
 1. Clone the repository:  
 ```bash
-git clone <https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-faith816-del.git>
-cd <repo-folder>
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-faith816-del.git
+cd react-js-jsx-and-css-mastering-front-end-development-faith816-del
 npm install
 npm run dev
+```
 
 ## Screenshots
 
-Desktop Light Mode:  
+Desktop Light Mode:
 ![Desktop Light](screenshots/home-light.png)
 
-Desktop Dark Mode:  
+Desktop Dark Mode:
 ![Desktop Dark](screenshots/home-dark.png)
 
-Mobile Light Mode:  
-![Mobile Light](screenshots/home-light-mobile.png)
+Mobile Light Mode:
+![Mobile Light](screenshots/mobile-light.png..jpeg)
 
-Mobile Dark Mode:  
-![Mobile Dark](screenshots/home-dark-mobile.png)
+Mobile Dark Mode:
+![Mobile Dark](screenshots/mobile-dark.png.jpeg)
 ---
 
 ## Deployment
 
-- Deployed  GitHub Pages:( https://faith816-del.github.io/week3-react-tailwind/)
-`https://faith816-del.github.io/week3-react-tailwind/
+- Deployed using **Vercel / Netlify / GitHub Pages** (replace with your URL):  
+`https://your-app-link.com`

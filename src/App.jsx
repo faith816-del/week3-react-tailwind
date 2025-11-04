@@ -1,16 +1,20 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Tasks from "./pages/task";
+import Home from "./pages/home";
+import Task from "./pages/task";
+import Layout from "./components/layout";
 
 function App() {
   return (
-    <Router basename="/week3-react-tailwind">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/tasks" element={<Tasks />} />
-      </Routes>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/task" element={<Task />} />
+        </Routes>
+      </Layout>
     </Router>
   );
 }
 
 export default App;
+
